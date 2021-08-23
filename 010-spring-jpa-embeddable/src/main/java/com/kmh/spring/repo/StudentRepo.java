@@ -5,6 +5,10 @@ import org.springframework.stereotype.Repository;
 
 import com.kmh.spring.entity.Student;
 
+/**
+ * @author KYIMINHAN
+ *
+ */
 @Repository
 public interface StudentRepo extends JpaRepository<Student, Integer> {
 
